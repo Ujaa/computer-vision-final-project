@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href=" {{ url_for('static', filename='css/style.css') }}"
+    />
+    <title>HTP 검사</title>
+  </head>
+  <body>
+    <section class="main-container draw-container">
+      <div>
+        <img
+          class="clock-img"
+          src="{{ url_for('static', filename='img/clock.png') }}"
+          alt=""
+        />
+        <h1 id="clock" class="clock">5<span>:</span>00</h1>
+        <p class="explain">
+          5분 이내로 종이에<br />
+          <span>집과 나무와 사람</span>을 그려주세요.
+        </p>
+      </div>
+      <form method="POST" action="{{ url_for('result') }}">
+        <div id="result">
+          <img id="image-upload" />
+          <input type="submit" value="검사 결과 보러 가기" />
+        </div>
+
+        <div id="filebox" class="filebox">
+          <label for="file-input">다 그린 그림 업로드하기</label>
+          <input type="file" id="file-input" name="image" />
+        </div>
+      </form>
+    </section>
+    <script
+      type="application/javascript"
+      src="{{ url_for('static', filename='main.js') }}"
+    ></script>
+  </body>
+</html>

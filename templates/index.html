@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href=" {{ url_for('static', filename='css/style.css') }}"
+    />
+    <title>HTP 검사</title>
+  </head>
+  <body>
+    <section class="main-container start-container">
+      <div>
+        <h1>HTP 검사</h1>
+        <p class="explain">
+          H(House), T(Tree), P(Person)<br />
+          세가지 항목 검사를 통해<br />
+          내면의 심리상태를 자세히 알아보세요
+        </p>
+        <p class="prepare">준비물: A4용지, 펜</p>
+      </div>
+      <div>
+        <div class="start-imgs">
+          <img
+            class="img-drawing"
+            src="{{ url_for('static', filename='img/drawing.png') }}"
+            alt=""
+          />
+
+          <img
+            class="img-pencil"
+            src="{{ url_for('static', filename='img/pencil.png') }}"
+            alt=""
+          />
+        </div>
+        <button id="start-btn" onclick="window.location.href='/draw'">
+          시작하기
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
