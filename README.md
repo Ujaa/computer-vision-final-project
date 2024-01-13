@@ -8,11 +8,12 @@
 <img width="1920" alt="Slide 16_9 - 15" src="https://github.com/Ujaa/computer-vision-final-2023/assets/40076944/93862017-27dd-4299-8c8c-232c0b532d76">
 <img width="1920" alt="Slide 16_9 - 17" src="https://github.com/Ujaa/computer-vision-final-2023/assets/40076944/8fd9e527-0d27-4349-9e04-458428e1043a">
 <img width="1920" alt="Slide 16_9 - 18" src="https://github.com/Ujaa/computer-vision-final-2023/assets/40076944/35af4e68-beba-453e-98a7-765a1666c7fe">
+<img width="1920" alt="Slide 16_9 - 23" src="https://github.com/Ujaa/computer-vision-final-2023/assets/40076944/5104dbd9-b922-4938-aed0-3b7463bc465d">
 <img width="1920" alt="Slide 16_9 - 19" src="https://github.com/Ujaa/computer-vision-final-2023/assets/40076944/186bf71e-f7c2-4677-a39b-723fe2c0af70">
 <img width="1920" alt="Slide 16_9 - 20" src="https://github.com/Ujaa/computer-vision-final-2023/assets/40076944/99222be3-e1e9-4545-9a70-4f56a2302bd4">
 <img width="1920" alt="Slide 16_9 - 21" src="https://github.com/Ujaa/computer-vision-final-2023/assets/40076944/4b117c34-534a-4a07-a137-8cc9c8689c72">
 <img width="1920" alt="Slide 16_9 - 22" src="https://github.com/Ujaa/computer-vision-final-2023/assets/40076944/1fffdd7e-b04c-462a-b25c-44b7b7114941">
-<img width="1920" alt="Slide 16_9 - 23" src="https://github.com/Ujaa/computer-vision-final-2023/assets/40076944/5104dbd9-b922-4938-aed0-3b7463bc465d">
+
 <img width="1920" alt="Slide 16_9 - 24" src="https://github.com/Ujaa/computer-vision-final-2023/assets/40076944/6b0069f9-4a5b-40a9-9da5-9c415817180a">
 
 
