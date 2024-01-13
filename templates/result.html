@@ -15,36 +15,25 @@
       <h1>내 HTP 검사 걸과는?</h1>
       <img
         class="result-img"
-        src="{{ url_for('static', filename='img/drawing2.png') }}"
+        src="{{ url_for('static', filename='upload/image.png') }}"
         alt=""
       />
-      <div class="keywords">
-        <div class="keyword">#진취적</div>
-        <div class="keyword">#열정적</div>
-        <div class="keyword">#자아도취</div>
-        <div class="keyword">#오버</div>
-        <div class="keyword">#데바데</div>
-        <div class="keyword">#현실적</div>
-        <div class="keyword">#창의적</div>
-        <div class="keyword">#열정적</div>
-        <div class="keyword">#자아도취</div>
-      </div>
+      <ul class="keywords">
+        {% for text in contents.keywords %}
+        <li class="keyword"> #{{text}} </li>
+        {% endfor %}
+      </ul>
       <h2 class="result-title">HOUSE 해석</h2>
       <p class="result result-margin">
-        최고가 되는 것은 외로운 일입니다. 매우 희귀한 성격이면서도 뛰어난 능력을
-        지닌 전략가(INTJ)는 이러한 말의 의미를 잘 알고 있습니다. 최고가 되는
-        것은 외로운 일입니다. 매우 희귀한 성격이면서도 뛰어난 능력을 지닌
-        전략가(INTJ)는 이러한 말의 의미를 잘 알고 있습니다.
+        {{ contents.house }}
       </p>
       <h2 class="result-title">TREE 해석</h2>
       <p class="result result-margin">
-        최고가 되는 것은 외로운 일입니다. 매우 희귀한 성격이면서도 뛰어난 능력을
-        지닌 전략가(INTJ)는 이러한 말의 의미를 잘 알고 있습니다.
+        {{ contents.tree }}
       </p>
       <h2 class="result-title">PERSON 해석</h2>
       <p class="result result-last-margin">
-        최고가 되는 것은 외로운 일입니다. 매우 희귀한 성격이면서도 뛰어난 능력을
-        지닌 전략가(INTJ)는 이러한 말의 의미를 잘 알고 있습니다.
+        {{ contents.person }}
       </p>
       <button id="return-btn" onclick="window.location.href='/'">
         처음으로 돌아가기
